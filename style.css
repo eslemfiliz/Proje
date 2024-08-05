@@ -5,7 +5,7 @@ body{
     background-attachment: fixed; 
 }
 #ortala{
-    width: 75%;
+    width: 77%;
     height: auto;
     margin: auto;
     padding-top: 70px;
@@ -35,7 +35,7 @@ main{
 }
 .firstStep{
     width: 100%;
-    height: 400px;
+    height: auto;
     border: 1px solid red;
     background-color: white;
     padding-top: 30px;
@@ -56,5 +56,82 @@ main{
 }
 .firstStepInfo{
     background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom:50px ;
     
+}
+.firstStepInfo p{
+    color: gray;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 16px;
+}
+.secondStep{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    background-color: #333333;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.imgInfo{
+    border: 1px solid yellow;
+    width: 86%;
+    height: auto;
+    margin: auto;
+    background-color: black;
+}
+.imgInfo h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.imgInfo hr{
+    width: 15%;
+}
+.imgInfo h4{
+    text-align: center;
+    color: gray;
+    margin-top: 15px;
+}
+.imgInfo img{
+    width: 50%;
+    
+}
+.imgInfo img:hover{
+    cursor: pointer;
+}
+.thirdStep{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    background-color: white;
+    
+}
+.InformationCards{
+    width: 100%;
+    height:400px ;
+    border: 1px solid brown;
+}
+.InformationCards img{
+    width: 49%;
+    height: 400px;
+    float: left;
+}
+.card{
+    width: 50%;
+    height: 400px;
+    border: 1px solid brown;
+    float: right;
+    background-color: whitesmoke;
+}
+.card h1{
+    text-align: center;
+    color: black;
+}
+.card p{
+    text-align: center;
+    color: #333333;
 }
